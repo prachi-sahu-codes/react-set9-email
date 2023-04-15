@@ -1,0 +1,75 @@
+:root {
+  --primary: #7b2cbf;
+  --secondary: #240046;
+}
+
+.page-heading {
+  text-align: center;
+  margin: 0.5rem;
+  color: var(--secondary);
+}
+
+.sub-heading {
+  text-align: center;
+  color: var(--primary);
+}
+
+.count-heading {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+li {
+  list-style: none;
+}
+
+.navigation {
+  text-align: right;
+  padding: 1.2rem;
+}
+
+.navLink {
+  font-size: 1.3rem;
+  padding: 1.2rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.card {
+  margin: 1.3rem auto;
+  padding: 1rem;
+  width: 70%;
+  border-radius: 5px;
+  background-color: #9d4edd15;
+  box-shadow: 2px 2px 5px #7a2cbfa0;
+}
+
+.card-link {
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.card-link:hover {
+  color: var(--secondary);
+}
+
+.btn-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  cursor: pointer;
+  opacity: 0.9;
+}
+button:hover {
+  opacity: 1;
+}
