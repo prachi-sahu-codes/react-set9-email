@@ -9,7 +9,7 @@ export const Sent = () => {
       <ul>
         {sentEmailData.map(({ id, subject }) => (
           <li key={id} className="card btn-link">
-            <Link className="card-link" to={`/sent/${id}`}>
+            <Link className="card-link" to={`/mail/${id}`}>
               {subject}
             </Link>
           </li>

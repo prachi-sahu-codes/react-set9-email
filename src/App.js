@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+
 import "./App.css";
 import { Home } from "./pages/Home";
 import { Inbox } from "./pages/Inbox";
@@ -30,9 +31,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/inbox" element={<Inbox />} />
         <Route path="/sent" element={<Sent />} />
-        <Route path="/sent/:emailId" element={<DetailEmail />} />
         <Route path="*" element={<NotFound />} />
-        <Route path="/inbox/:emailId" element={<DetailEmail />} />
+        <Route path="/mail/:emailId" element={<DetailEmail />} />
       </Routes>
     </div>
   );

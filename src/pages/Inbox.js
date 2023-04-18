@@ -14,7 +14,7 @@ export const Inbox = () => {
       <ul>
         {emailData.map(({ id, subject, read }) => (
           <li key={id} className="card btn-link">
-            <Link className="card-link" to={`/inbox/${id}`}>
+            <Link className="card-link" to={`/mail/${id}`}>
               {subject}
             </Link>
             {!read && (
